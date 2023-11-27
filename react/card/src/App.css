@@ -1,0 +1,19 @@
+.card-front,
+.card-back {
+  background: linear-gradient(to right, rgb(72, 42, 72), rgb(57, 57, 144));
+  /* transform-style: preserve-3d;
+  transition: transform 0.6s; */
+}
+
+.flip {
+  transform: rotateY(180deg);
+  transition: transform 0.3s;
+}
+
+.card-body {
+  font-family: "Maven Pro", monospace;
+}
+
+.card-details {
+  font-family: monospace, sans-serif;
+}
